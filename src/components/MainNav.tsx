@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "react-router-dom"
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -70,25 +71,9 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white hover:text-white/80 bg-transparent hover:bg-white/10">Plans</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <div className="grid gap-4 p-6 w-[400px] bg-[#1E1B3C] text-white">
-              <div className="grid grid-cols-1 gap-4">
-                <a href="#" className="block group">
-                  <h3 className="text-lg font-semibold">Enterprise</h3>
-                  <p className="text-sm text-gray-300">For large organizations</p>
-                </a>
-                <a href="#" className="block group">
-                  <h3 className="text-lg font-semibold">Business</h3>
-                  <p className="text-sm text-gray-300">For growing companies</p>
-                </a>
-                <a href="#" className="block group">
-                  <h3 className="text-lg font-semibold">Startup</h3>
-                  <p className="text-sm text-gray-300">For new businesses</p>
-                </a>
-              </div>
-            </div>
-          </NavigationMenuContent>
+          <Link to="/plans" className="text-white hover:text-white/80 px-4 py-2 inline-block">
+            Plans
+          </Link>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
