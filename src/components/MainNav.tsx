@@ -49,25 +49,9 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white hover:text-white/80 bg-transparent hover:bg-white/10">Resources</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <div className="grid gap-4 p-6 w-[400px] bg-[#1E1B3C] text-white">
-              <div className="grid grid-cols-1 gap-4">
-                <a href="#" className="block group">
-                  <h3 className="text-lg font-semibold">Our Story</h3>
-                  <p className="text-sm text-gray-300">Learn about our journey and mission</p>
-                </a>
-                <a href="#" className="block group">
-                  <h3 className="text-lg font-semibold">Team</h3>
-                  <p className="text-sm text-gray-300">Meet the people behind our success</p>
-                </a>
-                <a href="#" className="block group">
-                  <h3 className="text-lg font-semibold">Careers</h3>
-                  <p className="text-sm text-gray-300">Join our growing team</p>
-                </a>
-              </div>
-            </div>
-          </NavigationMenuContent>
+          <Link to="/our-story" className="text-white hover:text-white/80 bg-transparent hover:bg-white/10 flex cursor-default select-none items-center rounded-sm px-3 py-1.5 text-sm font-medium outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground">
+            Our story
+          </Link>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
