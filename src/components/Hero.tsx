@@ -8,9 +8,9 @@ const Hero = () => {
     <div className="min-h-screen bg-gradient-to-br from-[#0f1116] via-[#1E1B3C] to-[#6B46C1] relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
       <Header />
+
       <div className="container mx-auto px-4 pt-32 pb-20">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          {/* Left side content */}
           <div className="flex-1 text-left space-y-6 max-w-2xl">
             <div className="inline-block px-4 py-2 bg-black/30 rounded-full text-blue-400 mb-4">
               Zero-Effort Website Creation
@@ -38,9 +38,29 @@ const Hero = () => {
 
           {/* Right side with animation */}
           <div className="flex-1 relative">
-            <div className="relative w-[600px] h-[300px] mx-auto">
+            <div className="relative w-[600px] h-[400px] mx-auto">
+              {/* Connecting Line - Now positioned above */}
+              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-96 h-32">
+                <svg className="w-full h-full" viewBox="0 0 100 40">
+                  <path
+                    d="M10,30 Q50,0 90,30"
+                    stroke="rgb(59, 130, 246)"
+                    strokeWidth="2"
+                    fill="none"
+                    className="animate-draw-line"
+                    strokeDasharray="100"
+                  />
+                  <path
+                    d="M90,30 L85,25 M90,30 L85,35"
+                    stroke="rgb(59, 130, 246)"
+                    strokeWidth="2"
+                    fill="none"
+                  />
+                </svg>
+              </div>
+
               {/* Browser Window V1 */}
-              <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-64 animate-float">
+              <div className="absolute left-0 bottom-0 w-64 animate-float">
                 <div className="bg-blue-500/20 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -55,28 +75,8 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Connecting Line */}
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-32">
-                <svg className="w-full h-full" viewBox="0 0 100 100">
-                  <path
-                    d="M10,50 Q50,50 90,50"
-                    stroke="rgb(59, 130, 246)"
-                    strokeWidth="2"
-                    fill="none"
-                    className="animate-draw-line"
-                    strokeDasharray="100"
-                  />
-                  <path
-                    d="M90,50 L85,45 M90,50 L85,55"
-                    stroke="rgb(59, 130, 246)"
-                    strokeWidth="2"
-                    fill="none"
-                  />
-                </svg>
-              </div>
-
               {/* Browser Window V2 */}
-              <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-64 animate-float-delayed">
+              <div className="absolute right-0 bottom-0 w-64 animate-float-delayed">
                 <div className="bg-emerald-500/20 backdrop-blur-sm rounded-lg p-4 border border-emerald-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
