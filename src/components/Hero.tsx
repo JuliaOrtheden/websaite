@@ -38,9 +38,9 @@ const Hero = () => {
 
           {/* Right side with animation */}
           <div className="flex-1 relative">
-            <div className="relative w-[800px] h-[600px] mx-auto">
+            <div className="relative w-[600px] h-[400px] mx-auto">
               {/* Browser Window V1 */}
-              <div className="absolute left-0 bottom-0 w-96 animate-float">
+              <div className="absolute left-0 bottom-0 w-64 animate-float">
                 <div className="bg-blue-500/20 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -56,7 +56,7 @@ const Hero = () => {
               </div>
 
               {/* Browser Window V2 */}
-              <div className="absolute right-0 bottom-0 w-96 animate-float-delayed">
+              <div className="absolute right-0 bottom-0 w-64 animate-float-delayed">
                 <div className="bg-emerald-500/20 backdrop-blur-sm rounded-lg p-4 border border-emerald-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -74,34 +74,34 @@ const Hero = () => {
               </div>
 
               {/* Browser Window V3 - Design Tool */}
-              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[500px] animate-float-more-delayed">
-                <div className="bg-gradient-to-br from-blue-600 to-blue-800 backdrop-blur-sm rounded-lg p-6 border border-blue-400/30 shadow-xl">
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-72 animate-float-more-delayed">
+                <div className="bg-gradient-to-br from-blue-600 to-blue-800 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30 shadow-xl">
                   {/* Window Controls */}
                   <div className="flex gap-2 mb-3">
-                    <div className="w-3 h-3 rounded-full bg-white/20"></div>
-                    <div className="w-3 h-3 rounded-full bg-white/20"></div>
-                    <div className="w-3 h-3 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
                   </div>
                   
                   {/* Design Tool Interface */}
                   <div className="relative">
                     {/* Main Canvas */}
-                    <div className="bg-white/10 rounded-lg p-4">
+                    <div className="bg-white/10 rounded-lg p-3">
                       {/* Grid Layout */}
-                      <div className="grid grid-cols-2 gap-3">
-                        <div className="h-24 bg-white/20 rounded"></div>
-                        <div className="h-24 bg-white/20 rounded"></div>
+                      <div className="grid grid-cols-2 gap-2">
+                        <div className="h-16 bg-white/20 rounded"></div>
+                        <div className="h-16 bg-white/20 rounded"></div>
                       </div>
                       
                       {/* Moving Pen */}
-                      <div className="absolute w-4 h-4 bg-white rounded-full animate-moving-pen">
-                        <div className="absolute -top-1 -right-1 w-2 h-2 bg-white rounded-full"></div>
+                      <div className="absolute w-3 h-3 bg-white rounded-full animate-moving-pen">
+                        <div className="absolute -top-1 -right-1 w-1 h-1 bg-white rounded-full"></div>
                       </div>
                       
                       {/* Resize Handles */}
-                      <div className="absolute top-0 right-0 w-3 h-3 bg-blue-400 rounded-full"></div>
-                      <div className="absolute bottom-0 right-0 w-3 h-3 bg-blue-400 rounded-full"></div>
-                      <div className="absolute bottom-0 left-0 w-3 h-3 bg-blue-400 rounded-full"></div>
+                      <div className="absolute top-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+                      <div className="absolute bottom-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+                      <div className="absolute bottom-0 left-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                       
                       {/* Guidelines */}
                       <div className="absolute inset-0 border-2 border-blue-400 rounded pointer-events-none"></div>
