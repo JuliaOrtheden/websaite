@@ -2,9 +2,9 @@ import * as React from "react"
 import { Link } from "react-router-dom"
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuList,
+  NavigationMenuContent,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu"
 
@@ -71,19 +71,9 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white hover:text-white/80 bg-transparent hover:bg-white/10">
+          <Link to="/plans" className="text-white hover:text-white/80 bg-transparent hover:bg-white/10 flex cursor-default select-none items-center rounded-sm px-3 py-1.5 text-sm font-medium outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground">
             Plans
-          </NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <div className="grid gap-4 p-6 w-[400px] bg-[#1E1B3C] text-white">
-              <div className="grid grid-cols-1 gap-4">
-                <Link to="/plans" className="block group">
-                  <h3 className="text-lg font-semibold">View Plans</h3>
-                  <p className="text-sm text-gray-300">Explore our pricing options</p>
-                </Link>
-              </div>
-            </div>
-          </NavigationMenuContent>
+          </Link>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
