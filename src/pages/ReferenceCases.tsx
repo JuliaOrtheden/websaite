@@ -22,7 +22,6 @@ const ReferenceCases = () => {
             <Rocket className="w-8 h-8" />
           </div>
           <p className="text-2xl mb-2">Revolutionizing Molecular Analysis</p>
-          <p className="text-xl mb-2">200% Increase in Research Efficiency</p>
           <p className="text-lg mb-8 max-w-2xl">
             Groundbreaking patent-pending technology enabling unprecedented visualization of single nano-objects
           </p>
