@@ -71,7 +71,7 @@ const Plans = () => {
               <h2 className="text-2xl font-semibold">Standard</h2>
             </div>
             <p className="text-gray-400 mb-8">
-              Advanced features for growing businesses.
+              Advanced features for small or growing businesses.
             </p>
             <ul className="space-y-4 mb-8">
               <li className="flex items-center gap-2">
