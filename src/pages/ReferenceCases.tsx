@@ -15,7 +15,7 @@ const ReferenceCases = () => {
           alt="Molecular structure visualization"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/50 flex flex-col items-center justify-center text-center text-white">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70 flex flex-col items-center justify-center text-center text-white">
           <div className="flex items-center gap-4 mb-4">
             <Dna className="w-8 h-8" />
             <h1 className="text-5xl font-bold">Envue Technologies</h1>
@@ -43,7 +43,7 @@ const ReferenceCases = () => {
           alt="Advanced laboratory environment"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/20">
+        <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center text-white">
           <h1 className="text-5xl font-bold mb-2">Company B</h1>
           <p className="text-xl mb-2">50% Cost Reduction</p>
           <p className="text-lg mb-8">Advanced molecular imaging solutions</p>
