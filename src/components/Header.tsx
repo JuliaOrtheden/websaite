@@ -14,7 +14,7 @@ const Header = () => {
           <MainNav />
         </div>
         <div className="flex items-center space-x-4">
-          <Button variant="outline" className="text-white border-white hover:bg-white/10">Get in touch</Button>
+          <Button variant="outline" className="text-white border-purple-500 bg-black hover:bg-black/80">Get in touch</Button>
         </div>
       </div>
     </header>
