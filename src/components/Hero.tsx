@@ -37,7 +37,7 @@ const Hero = () => {
               <a href={mailtoLink}>
                 <Button 
                   size="lg" 
-                  className="bg-white/10 backdrop-blur-sm border-2 border-white/20 hover:bg-white/20 text-white hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
+                  className="bg-blue-600 hover:bg-blue-700 text-white hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
                 >
                   Create your website
                 </Button>
