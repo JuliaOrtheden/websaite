@@ -72,6 +72,56 @@ const Hero = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Browser Window V3 - Design Tool */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-72 animate-float-more-delayed">
+                <div className="bg-gradient-to-br from-blue-600 to-blue-800 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30 shadow-xl">
+                  {/* Window Controls */}
+                  <div className="flex gap-2 mb-3">
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                  </div>
+                  
+                  {/* Design Tool Interface */}
+                  <div className="relative">
+                    {/* Main Canvas */}
+                    <div className="bg-white/10 rounded-lg p-3">
+                      {/* Grid Layout */}
+                      <div className="grid grid-cols-2 gap-2">
+                        <div className="h-16 bg-white/20 rounded"></div>
+                        <div className="h-16 bg-white/20 rounded"></div>
+                      </div>
+                      
+                      {/* Resize Handles */}
+                      <div className="absolute top-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+                      <div className="absolute bottom-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+                      <div className="absolute bottom-0 left-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+                      
+                      {/* Guidelines */}
+                      <div className="absolute inset-0 border-2 border-blue-400 rounded pointer-events-none"></div>
+                    </div>
+                    
+                    {/* Numbered List Overlay */}
+                    <div className="absolute -left-32 top-1/2 -translate-y-1/2 bg-purple-600 rounded-lg p-3 shadow-lg">
+                      <div className="space-y-2 text-left text-white/90">
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm">1</span>
+                          <div className="h-2 w-20 bg-white/30 rounded"></div>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm">2</span>
+                          <div className="h-2 w-16 bg-white/30 rounded"></div>
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm">3</span>
+                          <div className="h-2 w-24 bg-white/30 rounded"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
