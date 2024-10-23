@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Index from './pages/Index';
 import Plans from './pages/Plans';
+import ReferenceCases from './pages/ReferenceCases';
 import Footer from './components/Footer';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/plans" element={<Plans />} />
+            <Route path="/reference-cases" element={<ReferenceCases />} />
           </Routes>
         </div>
         <Footer />
