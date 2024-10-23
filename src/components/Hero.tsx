@@ -13,24 +13,25 @@ const Hero = () => {
           {/* Left side content */}
           <div className="flex-1 text-left space-y-6 max-w-2xl">
             <div className="inline-block px-4 py-2 bg-black/30 rounded-full text-blue-400 mb-4">
-              Introducing AI-Powered Website Creation
+              Zero-Effort Website Creation
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
-              Create websites your customers will love
+              Your perfect website, created by AI in minutes
             </h1>
             
             <p className="text-lg text-gray-300 max-w-xl">
-              websAIte powers your entire website creation process, using AI to generate content with speed, 
-              launch customizations with confidence, and deliver experiences of the highest quality.
+              Sit back and let AI do the work. No coding, no design skills needed. 
+              Just tell us your vision, and we'll create a fully customizable website 
+              that's ready to launch in minutes, not months.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Get started
+                Create your website
               </Button>
               <Button size="lg" variant="outline" className="text-white">
-                See how it works <ArrowRight className="ml-2 h-4 w-4" />
+                Watch demo <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
           </div>
