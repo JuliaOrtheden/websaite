@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="text-4xl font-medium mb-4">Ready to get started with websaite?</h2>
           <p className="text-gray-400 mb-8">You're ready to unlock your digital potential. Ready, Set, GO!</p>
-          <Button variant="outline" className="border-2 border-purple-500 bg-black hover:bg-black/80 text-white">
+          <Button variant="outline" className="border-2 border-white bg-black hover:bg-black/80 text-white">
             Get started
           </Button>
         </div>
@@ -28,7 +28,7 @@ const Footer = () => {
           <Link to="/plans" className="text-white/80 hover:text-white/60 transition-colors">
             Plans
           </Link>
-          <Button variant="outline" className="text-white border-purple-500 bg-black hover:bg-black/80">
+          <Button variant="outline" className="text-white border-white bg-black hover:bg-black/80">
             Get in touch
           </Button>
         </div>
