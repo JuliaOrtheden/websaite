@@ -76,8 +76,8 @@ export default {
           '100%': { 'stroke-dashoffset': '0' },
         },
         'fade-in': {
-          '0%, 90%, 100%': { opacity: '0', transform: 'translateX(-10px)' },
-          '5%, 85%': { opacity: '1', transform: 'translateX(0)' },
+          '0%, 90%, 100%': { opacity: '0' },
+          '5%, 85%': { opacity: '1' },
         },
         'moving-pen': {
           '0%': { transform: 'translate(0, 0)' },
