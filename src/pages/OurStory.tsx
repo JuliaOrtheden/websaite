@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '@/components/Header';
 import LogoCarousel from '@/components/LogoCarousel';
+import HowItWorks from '@/components/HowItWorks';
 
 const OurStory = () => {
   return (
@@ -30,6 +31,7 @@ const OurStory = () => {
           </div>
         </div>
       </div>
+      <HowItWorks />
       <LogoCarousel />
     </div>
   );
