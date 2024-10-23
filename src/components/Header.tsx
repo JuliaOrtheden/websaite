@@ -19,7 +19,10 @@ const Header = () => {
         </div>
         <div className="flex items-center space-x-4">
           <a href={mailtoLink}>
-            <Button variant="ghost" className="text-white/80 hover:text-white/60 border border-white/80 transition-colors">
+            <Button 
+              variant="ghost" 
+              className="text-white/80 hover:text-white/60 border border-white/80 hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
+            >
               Get in touch
             </Button>
           </a>
