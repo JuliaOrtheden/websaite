@@ -1,16 +1,11 @@
 import React from 'react';
-import { Brain, Cog, Palette, LayoutGrid, Globe } from 'lucide-react';
+import { Brain, Palette, LayoutGrid, Globe } from 'lucide-react';
 
 const steps = [
   {
-    icon: <Cog className="w-8 h-8" />,
-    title: "Process Information",
-    description: "Share your vision and requirements with our AI"
-  },
-  {
     icon: <Brain className="w-8 h-8" />,
     title: "AI Analysis",
-    description: "Our advanced LLM understands and processes your needs"
+    description: "Share your vision with our LLM that understands and processes your needs"
   },
   {
     icon: <Palette className="w-8 h-8" />,
@@ -36,7 +31,7 @@ const HowItWorks = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
           How It Works
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
             <div
               key={index}
