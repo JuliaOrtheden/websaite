@@ -6,23 +6,26 @@ const Footer = () => {
   return (
     <footer className="bg-[#0f1116] text-white">
       {/* CTA Section */}
-      <div className="py-20 text-center bg-[#1E1B3C]">
-        <h2 className="text-4xl font-bold mb-4">Ready to get started with websaite?</h2>
-        <p className="text-gray-300 mb-8">You're ready to unlock your digital potential. Ready, Set, GO!</p>
-        <Button className="bg-blue-600 hover:bg-blue-700">Get started</Button>
+      <div className="py-32 text-center bg-black">
+        <div className="max-w-2xl mx-auto px-4">
+          <h2 className="text-4xl font-medium mb-4">Ready to get started with websaite?</h2>
+          <p className="text-gray-400 mb-8">You're ready to unlock your digital potential. Ready, Set, GO!</p>
+          <Button variant="outline" className="border-2 hover:bg-white hover:text-black transition-colors">
+            Get started
+          </Button>
+        </div>
       </div>
 
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Company Info */}
           <div>
             <h3 className="font-bold mb-4 text-lg">GLOBAL HQ</h3>
             <p className="text-gray-400">Sveavägen 46</p>
             <p className="text-gray-400 mb-4">111 34 Stockholm, Sweden</p>
             <p className="text-gray-400">Phone: +46 8 123 45 67</p>
           </div>
-
+          
           {/* Products */}
           <div>
             <h3 className="font-bold mb-4 text-lg">PRODUCTS</h3>
