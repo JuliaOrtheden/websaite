@@ -11,8 +11,8 @@ const ReferenceCases = () => {
       {/* Envue Technologies Case */}
       <section className="h-screen relative">
         <img
-          src="https://images.unsplash.com/photo-1497366216548-37526070297c"
-          alt="Advanced laboratory environment"
+          src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69"
+          alt="Molecular structure visualization"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/50 flex flex-col items-center justify-center text-center text-white">
@@ -39,8 +39,8 @@ const ReferenceCases = () => {
       {/* Case 2 */}
       <section className="h-screen relative">
         <img
-          src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69"
-          alt="Molecular structure visualization"
+          src="https://images.unsplash.com/photo-1497366216548-37526070297c"
+          alt="Advanced laboratory environment"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/20">
