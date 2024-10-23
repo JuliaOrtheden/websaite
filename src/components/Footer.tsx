@@ -12,7 +12,7 @@ const Footer = () => {
       {/* CTA Section */}
       <div className="py-32 text-center bg-black/40 backdrop-blur-sm">
         <div className="max-w-2xl mx-auto px-4">
-          <h2 className="text-4xl font-medium mb-4">Ready to get started with websaite?</h2>
+          <h2 className="text-4xl font-medium mb-4">Ready to get started with a websaite?</h2>
           <p className="text-gray-400 mb-8">You're ready to unlock your digital potential. Ready, Set, GO!</p>
           <a href={mailtoLink}>
             <Button 
