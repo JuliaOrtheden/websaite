@@ -3,6 +3,10 @@ import { Button } from '@/components/ui/button';
 import Header from './Header';
 
 const Hero = () => {
+  const emailSubject = encodeURIComponent("I want to discuss a new website");
+  const emailBody = encodeURIComponent("Hi Ellen,\n\nI am interested in discussing how you can help me improve my website. I am [Your Name] and I want [Desired Features].\n\nHave a nice day!\n\nBest regards,\n[Your Name]");
+  const mailtoLink = `mailto:ellen@websaite.tech?subject=${emailSubject}&body=${emailBody}`;
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f1116] via-[#1E1B3C] to-[#6B46C1] relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
@@ -26,9 +30,11 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Create your website
-              </Button>
+              <a href={mailtoLink}>
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                  Create your website
+                </Button>
+              </a>
             </div>
           </div>
 
