@@ -13,7 +13,7 @@ const Plans = () => {
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h1 className="text-5xl font-bold mb-6">Plans & pricing</h1>
           <p className="text-gray-400 text-lg">
-            We're here to learn about your specific needs and provide customized pricing so you can make the next step towards optimized experiences.
+            Choose the perfect plan for your fast and flexible website. Our AI-powered platform delivers stunning results in minutes, with the flexibility to adapt as your needs evolve.
           </p>
         </div>
 
