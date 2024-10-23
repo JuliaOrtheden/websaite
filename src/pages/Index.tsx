@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import RoleCategories from '@/components/RoleCategories';
 import ReferenceCase from '@/components/ReferenceCase';
 
 const Index = () => {
@@ -8,6 +9,7 @@ const Index = () => {
     <div className="min-h-screen bg-gray-100">
       <Header />
       <Hero />
+      <RoleCategories />
       <ReferenceCase
         title="Case Study: Company A"
         description="See how Company A increased their productivity by 200% using our solution."
