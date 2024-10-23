@@ -96,6 +96,18 @@ export default {
             'background-position': 'right center'
           }
         },
+        fadeSlideIn: {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        growRight: {
+          '0%': { transform: 'scaleX(0)', opacity: '0' },
+          '100%': { transform: 'scaleX(1)', opacity: '1' },
+        },
+        growUp: {
+          '0%': { transform: 'scaleY(0)', opacity: '0' },
+          '100%': { transform: 'scaleY(1)', opacity: '1' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
