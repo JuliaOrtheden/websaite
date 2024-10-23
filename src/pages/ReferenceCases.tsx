@@ -40,14 +40,14 @@ const ReferenceCases = () => {
       {/* Case 2 */}
       <section className="h-screen relative">
         <img
-          src="https://images.unsplash.com/photo-1664575602554-2087b04935a5"
-          alt="Modern office interior"
+          src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69"
+          alt="Molecular structure visualization"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/20">
           <h1 className="text-5xl font-bold mb-2">Company B</h1>
           <p className="text-xl mb-2">50% Cost Reduction</p>
-          <p className="text-lg mb-8">Revolutionize your business operations</p>
+          <p className="text-lg mb-8">Advanced molecular imaging solutions</p>
           <div className="flex gap-4">
             <Button variant="default" size="lg" className="bg-white text-black hover:bg-white/90">
               Learn More
