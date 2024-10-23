@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
       <Header />
 
-      <div className="container mx-auto px-4 pt-32 pb-20">
+      <div className="container mx-auto px-4 pt-48 pb-32">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-left space-y-6 max-w-2xl">
             <div className="inline-block px-4 py-2 bg-black/30 rounded-full text-blue-400 mb-4">
