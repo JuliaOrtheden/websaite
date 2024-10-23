@@ -4,6 +4,10 @@ import MainNav from './MainNav';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+  const emailSubject = encodeURIComponent("I want to discuss a new website");
+  const emailBody = encodeURIComponent("Hi Ellen,\n\nI am interested in discussing how you can help me improve my website. I am [Your Name] and I want [Desired Features].\n\nHave a nice day!\n\nBest regards,\n[Your Name]");
+  const mailtoLink = `mailto:ellen@websaite.tech?subject=${emailSubject}&body=${emailBody}`;
+
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto flex justify-between items-center py-6">
@@ -14,7 +18,11 @@ const Header = () => {
           <MainNav />
         </div>
         <div className="flex items-center space-x-4">
-          <Button variant="outline" className="text-white border-white bg-black hover:bg-black/80">Get in touch</Button>
+          <a href={mailtoLink}>
+            <Button variant="outline" className="text-white border-white bg-black hover:bg-black/80">
+              Get in touch
+            </Button>
+          </a>
         </div>
       </div>
     </header>

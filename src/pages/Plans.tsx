@@ -4,6 +4,10 @@ import { Check, X } from 'lucide-react';
 import Header from '@/components/Header';
 
 const Plans = () => {
+  const emailSubject = encodeURIComponent("I want to discuss a new website");
+  const emailBody = encodeURIComponent("Hi Ellen,\n\nI am interested in discussing how you can help me improve my website. I am [Your Name] and I want [Desired Features].\n\nHave a nice day!\n\nBest regards,\n[Your Name]");
+  const mailtoLink = `mailto:ellen@websaite.tech?subject=${emailSubject}&body=${emailBody}`;
+
   return (
     <div className="min-h-screen bg-[#0f1116] text-white relative">
       <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
@@ -51,9 +55,11 @@ const Plans = () => {
                 <span>No website changes after creation</span>
               </li>
             </ul>
-            <Button className="w-full bg-purple-600 hover:bg-purple-700">
-              Request pricing
-            </Button>
+            <a href={mailtoLink}>
+              <Button className="w-full bg-purple-600 hover:bg-purple-700">
+                Request pricing
+              </Button>
+            </a>
           </div>
 
           {/* Standard Plan */}
@@ -87,9 +93,11 @@ const Plans = () => {
                 <span>Automated DNS routing, we handle everything</span>
               </li>
             </ul>
-            <Button className="w-full bg-purple-600 hover:bg-purple-700">
-              Request pricing
-            </Button>
+            <a href={mailtoLink}>
+              <Button className="w-full bg-purple-600 hover:bg-purple-700">
+                Request pricing
+              </Button>
+            </a>
           </div>
 
           {/* Premium Plan */}
@@ -124,9 +132,11 @@ const Plans = () => {
                 <span>Priority support</span>
               </li>
             </ul>
-            <Button className="w-full bg-purple-600 hover:bg-purple-700">
-              Request pricing
-            </Button>
+            <a href={mailtoLink}>
+              <Button className="w-full bg-purple-600 hover:bg-purple-700">
+                Request pricing
+              </Button>
+            </a>
           </div>
         </div>
       </div>
