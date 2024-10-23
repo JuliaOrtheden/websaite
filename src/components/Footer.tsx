@@ -5,39 +5,11 @@ import { Button } from './ui/button';
 const Footer = () => {
   return (
     <footer className="bg-[#0f1116] text-white">
-      {/* Top curve transition */}
-      <div className="relative overflow-hidden">
-        <svg
-          viewBox="0 0 1440 200"
-          className="w-full transform rotate-180"
-          preserveAspectRatio="none"
-          fill="#1E1B3C"
-        >
-          <path
-            d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,85.3C672,75,768,85,864,101.3C960,117,1056,139,1152,133.3C1248,128,1344,96,1392,80L1440,64L1440,200L1392,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"
-          />
-        </svg>
-      </div>
-
       {/* CTA Section */}
-      <div className="py-20 text-center bg-[#1E1B3C] relative">
+      <div className="py-20 text-center bg-[#1E1B3C]">
         <h2 className="text-4xl font-bold mb-4">Ready to get started with websaite?</h2>
         <p className="text-gray-300 mb-8">You're ready to unlock your digital potential. Ready, Set, GO!</p>
         <Button className="bg-blue-600 hover:bg-blue-700">Get started</Button>
-      </div>
-
-      {/* Bottom curve transition */}
-      <div className="relative overflow-hidden">
-        <svg
-          viewBox="0 0 1440 200"
-          className="w-full transform translate-y-1"
-          preserveAspectRatio="none"
-          fill="#0f1116"
-        >
-          <path
-            d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,85.3C672,75,768,85,864,101.3C960,117,1056,139,1152,133.3C1248,128,1344,96,1392,80L1440,64L1440,200L1392,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"
-          />
-        </svg>
       </div>
 
       {/* Main Footer Content */}
