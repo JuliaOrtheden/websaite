@@ -22,8 +22,7 @@ const Header = () => {
           </nav>
         </div>
         <div className="flex items-center space-x-4">
-          <a href="#" className="text-sm">Login</a>
-          <Button>Get started</Button>
+          <Button>Get in touch</Button>
         </div>
       </div>
     </header>
