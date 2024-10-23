@@ -86,10 +86,6 @@ const Plans = () => {
                 <Check className="h-5 w-5 text-purple-500" />
                 <span>Automated DNS routing, we handle everything</span>
               </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-purple-500" />
-                <span>Priority support</span>
-              </li>
             </ul>
             <Button className="w-full bg-purple-600 hover:bg-purple-700">
               Request pricing
@@ -122,6 +118,10 @@ const Plans = () => {
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-purple-500" />
                 <span>Custom integrations</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="h-5 w-5 text-purple-500" />
+                <span>Priority support</span>
               </li>
             </ul>
             <Button className="w-full bg-purple-600 hover:bg-purple-700">
