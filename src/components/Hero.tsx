@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div className="min-h-screen relative overflow-hidden">
       {/* Animated gradient background with dark to light blue transition */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#000624] via-[#1a3163] to-[#2563eb] animate-gradient-x">
+      <div className="absolute inset-0 bg-gradient-to-br from-[#000624] via-[#1a0628] to-[#2563eb] animate-gradient-x">
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
       </div>
 
