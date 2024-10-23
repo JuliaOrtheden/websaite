@@ -14,7 +14,7 @@ const Header = () => {
           <MainNav />
         </div>
         <div className="flex items-center space-x-4">
-          <Button variant="outline" className="text-white border-purple-500 bg-black hover:bg-black/80">Get in touch</Button>
+          <Button variant="outline" className="text-white border-blue-500 bg-gradient-to-br from-[#0f1116] via-[#1E1B3C] to-[#6B46C1] hover:bg-gradient-to-br hover:from-[#0f1116]/80 hover:via-[#1E1B3C]/80 hover:to-[#6B46C1]/80">Get in touch</Button>
         </div>
       </div>
     </header>
