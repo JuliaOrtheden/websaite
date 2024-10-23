@@ -16,9 +16,6 @@ const OurStory = () => {
               <p className="text-lg text-gray-300">
                 At websaite, we're revolutionizing website creation through the power of AI. We're on a mission to make professional web development accessible to everyone by automating the entire process of website design, development, and optimization. Our cutting-edge AI technology transforms your ideas into stunning, functional websites in minutes, not months.
               </p>
-              <p className="text-lg text-gray-300">
-                websaite serves thousands of businesses worldwide, from startups to established brands. Our AI-powered platform creates and adjusts websites with unprecedented speed and precision, ensuring each site is uniquely tailored to our clients' needs. We believe in making professional web presence accessible to all, combining advanced AI technology with intuitive user experience.
-              </p>
               <button className="text-blue-400 hover:text-blue-300 flex items-center gap-2">
                 See how it works →
               </button>
