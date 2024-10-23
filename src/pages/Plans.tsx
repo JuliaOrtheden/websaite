@@ -123,18 +123,6 @@ const Plans = () => {
                 <Check className="h-5 w-5 text-purple-500" />
                 <span>Custom integrations</span>
               </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-purple-500" />
-                <span>Unlimited team members</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-purple-500" />
-                <span>24/7 dedicated support</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-purple-500" />
-                <span>Custom SLA</span>
-              </li>
             </ul>
             <Button className="w-full bg-purple-600 hover:bg-purple-700">
               Request pricing
