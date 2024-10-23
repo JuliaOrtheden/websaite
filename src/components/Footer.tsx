@@ -26,7 +26,7 @@ const Footer = () => {
       </div>
 
       {/* Main Footer Content */}
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-12 bg-gradient-to-br from-black/50 via-black/40 to-transparent backdrop-blur-[2px]">
         <div className="flex justify-center gap-8">
           <Link to="/reference-cases" className="text-white/80 hover:text-white/60 transition-colors">
             Reference cases
