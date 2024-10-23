@@ -76,8 +76,8 @@ export default {
           '100%': { 'stroke-dashoffset': '0' },
         },
         'fade-in': {
-          '0%': { opacity: '0', transform: 'translateX(-10px)' },
-          '100%': { opacity: '1', transform: 'translateX(0)' },
+          '0%, 90%, 100%': { opacity: '0', transform: 'translateX(-10px)' },
+          '5%, 85%': { opacity: '1', transform: 'translateX(0)' },
         },
         'moving-pen': {
           '0%': { transform: 'translate(0, 0)' },
@@ -94,9 +94,9 @@ export default {
         "float-delayed": "float 3s ease-in-out 1s infinite",
         "float-more-delayed": "float 3s ease-in-out 2s infinite",
         "draw-line": "draw-line 1.5s ease-out forwards",
-        "fade-in-1": "fade-in 0.5s ease-out forwards",
-        "fade-in-2": "fade-in 0.5s ease-out 0.3s forwards",
-        "fade-in-3": "fade-in 0.5s ease-out 0.6s forwards",
+        "fade-in-1": "fade-in 10s ease-in-out infinite",
+        "fade-in-2": "fade-in 10s ease-in-out 0.3s infinite",
+        "fade-in-3": "fade-in 10s ease-in-out 0.6s infinite",
         "moving-pen": "moving-pen 8s ease-in-out infinite",
       },
     },
