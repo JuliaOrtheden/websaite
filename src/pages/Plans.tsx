@@ -80,10 +80,6 @@ const Plans = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-purple-500" />
-                <span>Advanced analytics</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-purple-500" />
                 <span>Automated DNS routing, we handle everything</span>
               </li>
               <li className="flex items-center gap-2">
@@ -114,6 +110,10 @@ const Plans = () => {
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-purple-500" />
                 <span>Everything in Standard</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <Check className="h-5 w-5 text-purple-500" />
+                <span>Advanced analytics</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-purple-500" />
