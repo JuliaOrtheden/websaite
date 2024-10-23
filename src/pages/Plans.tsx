@@ -31,7 +31,7 @@ const Plans = () => {
               <h2 className="text-2xl font-semibold">Basic</h2>
             </div>
             <p className="text-gray-400 mb-8">
-              Perfect for individuals or small companies that does not need to make changes.
+              Perfect for small companies that does not need to make changes to their website
             </p>
             <ul className="space-y-4 mb-8">
               <li className="flex items-center gap-2">
