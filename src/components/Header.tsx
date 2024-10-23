@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import MainNav from './MainNav';
 import { Link } from 'react-router-dom';
+import { Zap } from 'lucide-react';
 
 const Header = () => {
   const emailSubject = encodeURIComponent("I want to discuss a new website");
@@ -12,7 +13,8 @@ const Header = () => {
     <header className="absolute top-0 left-0 right-0 z-50">
       <div className="container mx-auto flex justify-between items-center py-6">
         <div className="flex items-center space-x-8">
-          <Link to="/" className="hover:opacity-80 transition-opacity">
+          <Link to="/" className="hover:opacity-80 transition-opacity flex items-center gap-2">
+            <Zap className="w-5 h-5 text-blue-400" />
             <h1 className="text-2xl font-bold text-white">websaite</h1>
           </Link>
           <MainNav />
