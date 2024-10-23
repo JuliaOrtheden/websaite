@@ -12,9 +12,9 @@ const MainNav = () => {
     <NavigationMenu className="text-white">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white hover:text-gray-300">Reference cases</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-white hover:text-white/80 bg-transparent hover:bg-white/10">Reference cases</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="grid grid-cols-2 gap-4 p-6 w-[600px] bg-black text-white">
+            <div className="grid grid-cols-2 gap-4 p-6 w-[600px] bg-[#1E1B3C] text-white">
               <div className="col-span-2 grid grid-cols-2 gap-6">
                 <a href="#" className="group block space-y-2">
                   <div className="aspect-video overflow-hidden rounded-lg">
@@ -48,9 +48,9 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white hover:text-gray-300">About us</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-white hover:text-white/80 bg-transparent hover:bg-white/10">Resources</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="grid gap-4 p-6 w-[400px] bg-black text-white">
+            <div className="grid gap-4 p-6 w-[400px] bg-[#1E1B3C] text-white">
               <div className="grid grid-cols-1 gap-4">
                 <a href="#" className="block group">
                   <h3 className="text-lg font-semibold">Our Story</h3>
@@ -70,9 +70,9 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white hover:text-gray-300">Plans</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-white hover:text-white/80 bg-transparent hover:bg-white/10">Plans</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="grid gap-4 p-6 w-[400px] bg-black text-white">
+            <div className="grid gap-4 p-6 w-[400px] bg-[#1E1B3C] text-white">
               <div className="grid grid-cols-1 gap-4">
                 <a href="#" className="block group">
                   <h3 className="text-lg font-semibold">Enterprise</h3>
@@ -92,9 +92,9 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="text-white hover:text-gray-300">Partners</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-white hover:text-white/80 bg-transparent hover:bg-white/10">Partners</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <div className="grid gap-4 p-6 w-[400px] bg-black text-white">
+            <div className="grid gap-4 p-6 w-[400px] bg-[#1E1B3C] text-white">
               <div className="grid grid-cols-1 gap-4">
                 <a href="#" className="block group">
                   <h3 className="text-lg font-semibold">Partner Program</h3>
