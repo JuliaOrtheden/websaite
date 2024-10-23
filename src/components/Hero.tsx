@@ -1,12 +1,13 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import Header from './Header';
 
 const Hero = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#0f1116] via-[#1E1B3C] to-[#6B46C1] relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
-      
+      <Header />
       <div className="container mx-auto px-4 pt-32 pb-20">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           {/* Left side content */}
