@@ -36,27 +36,69 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right side with circular diagram */}
+          {/* Right side with new animation */}
           <div className="flex-1 relative">
             <div className="relative w-[500px] h-[500px] mx-auto">
-              <div className="absolute inset-0 rounded-full border-2 border-blue-400/20 animate-[spin_20s_linear_infinite]">
-                {['Analyze', 'Plan', 'Create', 'Store', 'Globalize', 'Layout', 'Deliver', 'Personalize'].map((text, index) => (
-                  <div
-                    key={text}
-                    className="absolute bg-blue-500 text-white rounded-full p-4 w-24 h-24 flex items-center justify-center text-sm font-medium"
-                    style={{
-                      transform: `rotate(${index * 45}deg) translateY(-200px) rotate(-${index * 45}deg)`,
-                    }}
-                  >
-                    {text}
-                  </div>
-                ))}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-2xl font-bold text-white">
-                    websaite
-                    <div className="text-blue-400 text-lg">One</div>
+              {/* Pie Chart */}
+              <div className="absolute top-0 left-0 w-32 h-32 animate-float">
+                <div className="w-full h-full rounded-full border-4 border-blue-500 bg-blue-900/30 relative overflow-hidden">
+                  <div className="absolute inset-0 origin-center animate-[spin_3s_linear_infinite]">
+                    <div className="w-1/2 h-full bg-blue-500 origin-right"></div>
                   </div>
                 </div>
+              </div>
+
+              {/* Browser Window V1 */}
+              <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-64 animate-float-delayed">
+                <div className="bg-blue-500/20 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30">
+                  <div className="flex gap-2 mb-3">
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                  </div>
+                  <div className="space-y-2">
+                    <div className="h-4 w-12 bg-white/10 rounded"></div>
+                    <div className="h-2 w-full bg-white/10 rounded"></div>
+                    <div className="h-2 w-3/4 bg-white/10 rounded"></div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Browser Window V2 */}
+              <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-64 animate-float-more-delayed">
+                <div className="bg-emerald-500/20 backdrop-blur-sm rounded-lg p-4 border border-emerald-400/30">
+                  <div className="flex gap-2 mb-3">
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                    <div className="w-2 h-2 rounded-full bg-white/20"></div>
+                  </div>
+                  <div className="grid grid-cols-3 gap-2">
+                    <div className="h-16 bg-white/10 rounded"></div>
+                    <div className="h-16 bg-white/10 rounded"></div>
+                    <div className="h-16 bg-white/10 rounded"></div>
+                    <div className="h-2 w-full bg-white/10 rounded col-span-3"></div>
+                    <div className="h-2 w-2/3 bg-white/10 rounded col-span-2"></div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Connecting Line */}
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32">
+                <svg className="w-full h-full" viewBox="0 0 100 100">
+                  <path
+                    d="M10,50 Q50,50 90,50"
+                    stroke="rgb(59, 130, 246)"
+                    strokeWidth="2"
+                    fill="none"
+                    className="animate-draw-line"
+                  />
+                  <path
+                    d="M90,50 L85,45 M90,50 L85,55"
+                    stroke="rgb(59, 130, 246)"
+                    strokeWidth="2"
+                    fill="none"
+                  />
+                </svg>
               </div>
             </div>
           </div>
