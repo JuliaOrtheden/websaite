@@ -8,14 +8,17 @@ const Footer = () => {
   const mailtoLink = `mailto:ellen@websaite.tech?subject=${emailSubject}&body=${emailBody}`;
 
   return (
-    <footer className="bg-[#0f1116] text-white">
+    <footer className="bg-gradient-to-br from-[#0f1116] via-[#1E1B3C] to-[#6B46C1] text-white">
       {/* CTA Section */}
-      <div className="py-32 text-center bg-black">
+      <div className="py-32 text-center bg-black/40 backdrop-blur-sm">
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="text-4xl font-medium mb-4">Ready to get started with websaite?</h2>
           <p className="text-gray-400 mb-8">You're ready to unlock your digital potential. Ready, Set, GO!</p>
           <a href={mailtoLink}>
-            <Button variant="outline" className="border-2 border-white bg-black hover:bg-black/80 text-white">
+            <Button 
+              variant="outline" 
+              className="border-2 border-white bg-black/20 hover:bg-black/40 text-white hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
+            >
               Get started
             </Button>
           </a>
@@ -37,7 +40,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-12 pt-8 flex justify-center">
+        <div className="border-t border-white/10 mt-12 pt-8 flex justify-center">
           <span className="text-gray-400">© 2024 websaite</span>
         </div>
       </div>
