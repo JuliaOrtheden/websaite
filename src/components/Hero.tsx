@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 pt-48 pb-32 relative">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-left space-y-6 max-w-2xl">
-            <div className="text-blue-400 mb-4">
+            <div className="text-blue-600 mb-4">
               Zero-Effort Website Creation
             </div>
             
