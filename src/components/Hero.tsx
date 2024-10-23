@@ -53,7 +53,7 @@ const Hero = () => {
                 ))}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-2xl font-bold text-white">
-                    websAIte
+                    websaite
                     <div className="text-blue-400 text-lg">One</div>
                   </div>
                 </div>
