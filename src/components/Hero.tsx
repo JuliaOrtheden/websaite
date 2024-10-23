@@ -39,26 +39,6 @@ const Hero = () => {
           {/* Right side with animation */}
           <div className="flex-1 relative">
             <div className="relative w-[600px] h-[400px] mx-auto">
-              {/* Connecting Line - Now positioned above */}
-              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-96 h-32">
-                <svg className="w-full h-full" viewBox="0 0 100 40">
-                  <path
-                    d="M10,30 Q50,0 90,30"
-                    stroke="rgb(59, 130, 246)"
-                    strokeWidth="2"
-                    fill="none"
-                    className="animate-draw-line"
-                    strokeDasharray="100"
-                  />
-                  <path
-                    d="M90,30 L85,25 M90,30 L85,35"
-                    stroke="rgb(59, 130, 246)"
-                    strokeWidth="2"
-                    fill="none"
-                  />
-                </svg>
-              </div>
-
               {/* Browser Window V1 */}
               <div className="absolute left-0 bottom-0 w-64 animate-float">
                 <div className="bg-blue-500/20 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30">
