@@ -30,9 +30,9 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4 text-lg">PRODUCTS</h3>
             <ul className="space-y-2">
-              <li><Link to="/" className="text-gray-400 hover:text-white">All products</Link></li>
-              <li><Link to="/plans" className="text-gray-400 hover:text-white">Plans & pricing</Link></li>
-              <li><Link to="/roadmap" className="text-gray-400 hover:text-white">Roadmap</Link></li>
+              <li><Link to="/" className="text-white/80 hover:text-white/60 transition-colors">All products</Link></li>
+              <li><Link to="/plans" className="text-white/80 hover:text-white/60 transition-colors">Plans & pricing</Link></li>
+              <li><Link to="/roadmap" className="text-white/80 hover:text-white/60 transition-colors">Roadmap</Link></li>
             </ul>
           </div>
 
@@ -40,10 +40,10 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4 text-lg">RESOURCES</h3>
             <ul className="space-y-2">
-              <li><Link to="/insights" className="text-gray-400 hover:text-white">Insights</Link></li>
-              <li><Link to="/blog" className="text-gray-400 hover:text-white">Blog</Link></li>
-              <li><Link to="/developers" className="text-gray-400 hover:text-white">Developers</Link></li>
-              <li><Link to="/support" className="text-gray-400 hover:text-white">Support</Link></li>
+              <li><Link to="/insights" className="text-white/80 hover:text-white/60 transition-colors">Insights</Link></li>
+              <li><Link to="/blog" className="text-white/80 hover:text-white/60 transition-colors">Blog</Link></li>
+              <li><Link to="/developers" className="text-white/80 hover:text-white/60 transition-colors">Developers</Link></li>
+              <li><Link to="/support" className="text-white/80 hover:text-white/60 transition-colors">Support</Link></li>
             </ul>
           </div>
 
@@ -51,11 +51,11 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4 text-lg">COMPANY</h3>
             <ul className="space-y-2">
-              <li><Link to="/about" className="text-gray-400 hover:text-white">About us</Link></li>
-              <li><Link to="/careers" className="text-gray-400 hover:text-white">Working at websaite</Link></li>
-              <li><Link to="/diversity" className="text-gray-400 hover:text-white">Diversity & inclusion</Link></li>
-              <li><Link to="/team" className="text-gray-400 hover:text-white">Executive team</Link></li>
-              <li><Link to="/press" className="text-gray-400 hover:text-white">Press</Link></li>
+              <li><Link to="/about" className="text-white/80 hover:text-white/60 transition-colors">About us</Link></li>
+              <li><Link to="/careers" className="text-white/80 hover:text-white/60 transition-colors">Working at websaite</Link></li>
+              <li><Link to="/diversity" className="text-white/80 hover:text-white/60 transition-colors">Diversity & inclusion</Link></li>
+              <li><Link to="/team" className="text-white/80 hover:text-white/60 transition-colors">Executive team</Link></li>
+              <li><Link to="/press" className="text-white/80 hover:text-white/60 transition-colors">Press</Link></li>
             </ul>
           </div>
         </div>
@@ -64,13 +64,13 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-6 mb-4 md:mb-0">
             <span className="text-gray-400">© 2024 websaite</span>
-            <Link to="/privacy" className="text-gray-400 hover:text-white">Privacy notice</Link>
-            <Link to="/terms" className="text-gray-400 hover:text-white">Website terms of use</Link>
-            <Link to="/trust" className="text-gray-400 hover:text-white">Trust center</Link>
-            <button className="text-gray-400 hover:text-white">Cookie settings</button>
+            <Link to="/privacy" className="text-white/80 hover:text-white/60 transition-colors">Privacy notice</Link>
+            <Link to="/terms" className="text-white/80 hover:text-white/60 transition-colors">Website terms of use</Link>
+            <Link to="/trust" className="text-white/80 hover:text-white/60 transition-colors">Trust center</Link>
+            <button className="text-white/80 hover:text-white/60 transition-colors">Cookie settings</button>
           </div>
           <div>
-            <button className="text-gray-400 hover:text-white">Search</button>
+            <button className="text-white/80 hover:text-white/60 transition-colors">Search</button>
           </div>
         </div>
       </div>
