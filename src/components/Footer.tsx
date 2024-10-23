@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-[#0f1116] via-[#1E1B3C] to-[#6B46C1] text-white">
       {/* CTA Section */}
-      <div className="py-32 text-center bg-black/40 backdrop-blur-sm">
+      <div className="py-32 text-center bg-gradient-to-br from-black/40 via-black/30 to-transparent backdrop-blur-sm">
         <div className="max-w-2xl mx-auto px-4">
           <h2 className="text-4xl font-medium mb-4">Ready to get started with a websaite?</h2>
           <p className="text-gray-400 mb-8">You're ready to unlock your digital potential. Ready, Set, GO!</p>
