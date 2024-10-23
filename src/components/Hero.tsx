@@ -31,7 +31,10 @@ const Hero = () => {
             
             <div className="flex flex-wrap gap-4 pt-4">
               <a href={mailtoLink}>
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Button 
+                  size="lg" 
+                  className="bg-blue-600 hover:bg-blue-500 hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
+                >
                   Create your website
                 </Button>
               </a>
