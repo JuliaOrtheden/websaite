@@ -18,13 +18,8 @@ const Header = () => {
           <MainNav />
         </div>
         <div className="flex items-center space-x-4">
-          <a href={mailtoLink}>
-            <Button 
-              variant="ghost" 
-              className="text-white/80 hover:text-white/60 border border-white/80 hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
-            >
-              Get in touch
-            </Button>
+          <a href={mailtoLink} className="text-white hover:text-white/80 bg-transparent hover:bg-white/10 flex cursor-default select-none items-center rounded-sm px-3 py-1.5 text-sm font-medium outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground">
+            Get in touch
           </a>
         </div>
       </div>
