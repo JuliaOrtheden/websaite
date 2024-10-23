@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { Check } from 'lucide-react';
+import { Check, X } from 'lucide-react';
 import Header from '@/components/Header';
 
 const Plans = () => {
@@ -36,15 +36,19 @@ const Plans = () => {
             <ul className="space-y-4 mb-8">
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-purple-500" />
-                <span>Digital asset management</span>
+                <span>One-time website creation</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-purple-500" />
-                <span>Basic task management</span>
+                <span>Basic design templates</span>
               </li>
               <li className="flex items-center gap-2">
-                <Check className="h-5 w-5 text-purple-500" />
-                <span>Up to 5 team members</span>
+                <X className="h-5 w-5 text-red-500" />
+                <span>No automated DNS setup</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <X className="h-5 w-5 text-red-500" />
+                <span>No website changes after creation</span>
               </li>
             </ul>
             <Button className="w-full bg-purple-600 hover:bg-purple-700">
