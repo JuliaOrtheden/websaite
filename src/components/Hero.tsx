@@ -27,9 +27,6 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                Create your website
-              </Button>
               <Button size="lg" variant="outline" className="text-white">
                 Watch demo <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
