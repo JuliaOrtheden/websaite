@@ -93,6 +93,11 @@ const Hero = () => {
                         <div className="h-16 bg-white/20 rounded"></div>
                       </div>
                       
+                      {/* Moving Pen */}
+                      <div className="absolute w-3 h-3 bg-white rounded-full animate-moving-pen">
+                        <div className="absolute -top-1 -right-1 w-1 h-1 bg-white rounded-full"></div>
+                      </div>
+                      
                       {/* Resize Handles */}
                       <div className="absolute top-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                       <div className="absolute bottom-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
@@ -105,15 +110,15 @@ const Hero = () => {
                     {/* Numbered List Overlay */}
                     <div className="absolute -left-32 top-1/2 -translate-y-1/2 bg-purple-600 rounded-lg p-3 shadow-lg">
                       <div className="space-y-2 text-left text-white/90">
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-2 opacity-0 animate-fade-in-1">
                           <span className="text-sm">1</span>
                           <div className="h-2 w-20 bg-white/30 rounded"></div>
                         </div>
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-2 opacity-0 animate-fade-in-2">
                           <span className="text-sm">2</span>
                           <div className="h-2 w-16 bg-white/30 rounded"></div>
                         </div>
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-2 opacity-0 animate-fade-in-3">
                           <span className="text-sm">3</span>
                           <div className="h-2 w-24 bg-white/30 rounded"></div>
                         </div>

@@ -75,6 +75,17 @@ export default {
           '0%': { 'stroke-dashoffset': '100' },
           '100%': { 'stroke-dashoffset': '0' },
         },
+        'fade-in': {
+          '0%': { opacity: '0', transform: 'translateX(-10px)' },
+          '100%': { opacity: '1', transform: 'translateX(0)' },
+        },
+        'moving-pen': {
+          '0%': { transform: 'translate(0, 0)' },
+          '25%': { transform: 'translate(100%, 0)' },
+          '50%': { transform: 'translate(100%, 100%)' },
+          '75%': { transform: 'translate(0, 100%)' },
+          '100%': { transform: 'translate(0, 0)' },
+        }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -83,6 +94,10 @@ export default {
         "float-delayed": "float 3s ease-in-out 1s infinite",
         "float-more-delayed": "float 3s ease-in-out 2s infinite",
         "draw-line": "draw-line 1.5s ease-out forwards",
+        "fade-in-1": "fade-in 0.5s ease-out forwards",
+        "fade-in-2": "fade-in 0.5s ease-out 0.3s forwards",
+        "fade-in-3": "fade-in 0.5s ease-out 0.6s forwards",
+        "moving-pen": "moving-pen 8s ease-in-out infinite",
       },
     },
   },
