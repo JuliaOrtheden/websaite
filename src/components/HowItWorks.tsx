@@ -1,5 +1,5 @@
 import React from 'react';
-import { Brain, Cog, Palette, LayoutGrid } from 'lucide-react';
+import { Brain, Cog, Palette, LayoutGrid, Globe } from 'lucide-react';
 
 const steps = [
   {
@@ -21,6 +21,11 @@ const steps = [
     icon: <LayoutGrid className="w-8 h-8" />,
     title: "Layout Refinement",
     description: "Adjust layouts inspired by your favorite websites"
+  },
+  {
+    icon: <Globe className="w-8 h-8" />,
+    title: "Automated DNS Setup",
+    description: "We handle domain configuration and DNS routing automatically"
   }
 ];
 
@@ -31,7 +36,7 @@ const HowItWorks = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
           How It Works
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {steps.map((step, index) => (
             <div
               key={index}
