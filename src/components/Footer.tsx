@@ -28,9 +28,6 @@ const Footer = () => {
           <Link to="/plans" className="text-white/80 hover:text-white/60 transition-colors">
             Plans
           </Link>
-          <Button variant="outline" className="text-white border-white bg-black hover:bg-black/80">
-            Get in touch
-          </Button>
         </div>
 
         {/* Bottom Bar */}
