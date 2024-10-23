@@ -10,7 +10,6 @@ const Hero = () => {
       <Header />
       <div className="container mx-auto px-4 pt-32 pb-20">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          {/* Left side content */}
           <div className="flex-1 text-left space-y-6 max-w-2xl">
             <div className="inline-block px-4 py-2 bg-black/30 rounded-full text-blue-400 mb-4">
               Zero-Effort Website Creation
@@ -30,7 +29,7 @@ const Hero = () => {
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
                 Create your website
               </Button>
-              <Button size="lg" variant="outline" className="text-white">
+              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
                 Watch demo <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
