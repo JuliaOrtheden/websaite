@@ -85,7 +85,17 @@ export default {
           '50%': { transform: 'translate(100%, 100%)' },
           '75%': { transform: 'translate(0, 100%)' },
           '100%': { transform: 'translate(0, 0)' },
-        }
+        },
+        'gradient-x': {
+          '0%, 100%': {
+            'background-size': '200% 200%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '200% 200%',
+            'background-position': 'right center'
+          }
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -98,6 +108,7 @@ export default {
         "fade-in-2": "fade-in 10s ease-in-out 0.3s infinite",
         "fade-in-3": "fade-in 10s ease-in-out 0.6s infinite",
         "moving-pen": "moving-pen 8s ease-in-out infinite",
+        'gradient-x': 'gradient-x 15s ease infinite',
       },
     },
   },

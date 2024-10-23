@@ -8,14 +8,18 @@ const Hero = () => {
   const mailtoLink = `mailto:ellen@websaite.tech?subject=${emailSubject}&body=${emailBody}`;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f1116] via-[#1E1B3C] to-[#6B46C1] relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
+    <div className="min-h-screen relative overflow-hidden">
+      {/* Animated gradient background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-purple-600 to-blue-600 animate-gradient-x">
+        <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
+      </div>
+
       <Header />
 
-      <div className="container mx-auto px-4 pt-48 pb-32">
+      <div className="container mx-auto px-4 pt-48 pb-32 relative">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 text-left space-y-6 max-w-2xl">
-            <div className="text-blue-400 mb-4">
+            <div className="text-blue-200 mb-4">
               Zero-Effort Website Creation
             </div>
             
@@ -23,7 +27,7 @@ const Hero = () => {
               Your perfect website, created by AI in minutes
             </h1>
             
-            <p className="text-lg text-gray-300 max-w-xl">
+            <p className="text-lg text-gray-200 max-w-xl">
               Sit back and let AI do the work. No coding, no design skills needed. 
               Just tell us your vision, and we'll create a fully customizable website 
               that's ready to launch in minutes, not months.
@@ -33,7 +37,7 @@ const Hero = () => {
               <a href={mailtoLink}>
                 <Button 
                   size="lg" 
-                  className="bg-blue-600 hover:bg-blue-500 hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
+                  className="bg-white/10 backdrop-blur-sm border-2 border-white/20 hover:bg-white/20 text-white hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
                 >
                   Create your website
                 </Button>
