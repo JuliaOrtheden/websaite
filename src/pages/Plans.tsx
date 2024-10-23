@@ -84,7 +84,7 @@ const Plans = () => {
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-purple-500" />
-                <span>Up to 20 team members</span>
+                <span>Automated DNS routing, we handle everything</span>
               </li>
               <li className="flex items-center gap-2">
                 <Check className="h-5 w-5 text-purple-500" />
