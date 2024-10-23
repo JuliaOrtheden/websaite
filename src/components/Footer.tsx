@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-[#0f1116] text-white">
       {/* CTA Section */}
       <div className="py-20 text-center bg-[#1E1B3C]">
-        <h2 className="text-4xl font-bold mb-4">Ready to get started with Elevate?</h2>
+        <h2 className="text-4xl font-bold mb-4">Ready to get started with websaite?</h2>
         <p className="text-gray-300 mb-8">You're ready to unlock your digital potential. Ready, Set, GO!</p>
         <Button className="bg-blue-600 hover:bg-blue-700">Get started</Button>
       </div>
@@ -18,9 +18,9 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <h3 className="font-bold mb-4 text-lg">GLOBAL HQ</h3>
-            <p className="text-gray-400">119 5th Ave 7th floor</p>
-            <p className="text-gray-400 mb-4">New York, NY 10003, USA</p>
-            <p className="text-gray-400">Phone: +1 603 594 0249</p>
+            <p className="text-gray-400">Sveavägen 46</p>
+            <p className="text-gray-400 mb-4">111 34 Stockholm, Sweden</p>
+            <p className="text-gray-400">Phone: +46 8 123 45 67</p>
           </div>
 
           {/* Products */}
@@ -49,7 +49,7 @@ const Footer = () => {
             <h3 className="font-bold mb-4 text-lg">COMPANY</h3>
             <ul className="space-y-2">
               <li><Link to="/about" className="text-gray-400 hover:text-white">About us</Link></li>
-              <li><Link to="/careers" className="text-gray-400 hover:text-white">Working at Elevate</Link></li>
+              <li><Link to="/careers" className="text-gray-400 hover:text-white">Working at websaite</Link></li>
               <li><Link to="/diversity" className="text-gray-400 hover:text-white">Diversity & inclusion</Link></li>
               <li><Link to="/team" className="text-gray-400 hover:text-white">Executive team</Link></li>
               <li><Link to="/press" className="text-gray-400 hover:text-white">Press</Link></li>
@@ -60,7 +60,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center gap-6 mb-4 md:mb-0">
-            <span className="text-gray-400">© 2024 Elevate</span>
+            <span className="text-gray-400">© 2024 websaite</span>
             <Link to="/privacy" className="text-gray-400 hover:text-white">Privacy notice</Link>
             <Link to="/terms" className="text-gray-400 hover:text-white">Website terms of use</Link>
             <Link to="/trust" className="text-gray-400 hover:text-white">Trust center</Link>
