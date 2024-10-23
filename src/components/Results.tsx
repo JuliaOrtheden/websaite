@@ -2,7 +2,7 @@ import React from 'react';
 
 const Results = () => {
   return (
-    <div className="bg-[#0f1116] text-white py-32">
+    <div className="bg-[#0f1116] text-white py-32 relative -mt-1">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-4xl md:text-6xl font-bold mb-6 max-w-4xl mx-auto leading-tight">
           Everything you need for marketing, <span className="whitespace-nowrap">all in one</span>
