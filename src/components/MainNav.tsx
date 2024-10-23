@@ -9,10 +9,10 @@ import {
 
 const MainNav = () => {
   return (
-    <NavigationMenu>
+    <NavigationMenu className="text-black">
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Reference cases</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-black hover:text-gray-600">Reference cases</NavigationMenuTrigger>
           <NavigationMenuContent>
             <div className="grid grid-cols-2 gap-4 p-6 w-[600px]">
               <div className="col-span-2 grid grid-cols-2 gap-6">
@@ -48,7 +48,7 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger>About us</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-black hover:text-gray-600">About us</NavigationMenuTrigger>
           <NavigationMenuContent>
             <div className="grid gap-4 p-6 w-[400px]">
               <div className="grid grid-cols-1 gap-4">
@@ -70,7 +70,7 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Plans</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-black hover:text-gray-600">Plans</NavigationMenuTrigger>
           <NavigationMenuContent>
             <div className="grid gap-4 p-6 w-[400px]">
               <div className="grid grid-cols-1 gap-4">
@@ -92,7 +92,7 @@ const MainNav = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Partners</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-black hover:text-gray-600">Partners</NavigationMenuTrigger>
           <NavigationMenuContent>
             <div className="grid gap-4 p-6 w-[400px]">
               <div className="grid grid-cols-1 gap-4">
