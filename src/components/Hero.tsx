@@ -36,20 +36,11 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right side with new animation */}
+          {/* Right side with animation */}
           <div className="flex-1 relative">
-            <div className="relative w-[500px] h-[500px] mx-auto">
-              {/* Pie Chart */}
-              <div className="absolute top-0 left-0 w-32 h-32 animate-float">
-                <div className="w-full h-full rounded-full border-4 border-blue-500 bg-blue-900/30 relative overflow-hidden">
-                  <div className="absolute inset-0 origin-center animate-[spin_3s_linear_infinite]">
-                    <div className="w-1/2 h-full bg-blue-500 origin-right"></div>
-                  </div>
-                </div>
-              </div>
-
+            <div className="relative w-[600px] h-[300px] mx-auto">
               {/* Browser Window V1 */}
-              <div className="absolute top-1/2 left-0 transform -translate-y-1/2 w-64 animate-float-delayed">
+              <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-64 animate-float">
                 <div className="bg-blue-500/20 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -64,8 +55,28 @@ const Hero = () => {
                 </div>
               </div>
 
+              {/* Connecting Line */}
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-32">
+                <svg className="w-full h-full" viewBox="0 0 100 100">
+                  <path
+                    d="M10,50 Q50,50 90,50"
+                    stroke="rgb(59, 130, 246)"
+                    strokeWidth="2"
+                    fill="none"
+                    className="animate-draw-line"
+                    strokeDasharray="100"
+                  />
+                  <path
+                    d="M90,50 L85,45 M90,50 L85,55"
+                    stroke="rgb(59, 130, 246)"
+                    strokeWidth="2"
+                    fill="none"
+                  />
+                </svg>
+              </div>
+
               {/* Browser Window V2 */}
-              <div className="absolute top-1/2 right-0 transform -translate-y-1/2 w-64 animate-float-more-delayed">
+              <div className="absolute right-0 top-1/2 transform -translate-y-1/2 w-64 animate-float-delayed">
                 <div className="bg-emerald-500/20 backdrop-blur-sm rounded-lg p-4 border border-emerald-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -80,25 +91,6 @@ const Hero = () => {
                     <div className="h-2 w-2/3 bg-white/10 rounded col-span-2"></div>
                   </div>
                 </div>
-              </div>
-
-              {/* Connecting Line */}
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32">
-                <svg className="w-full h-full" viewBox="0 0 100 100">
-                  <path
-                    d="M10,50 Q50,50 90,50"
-                    stroke="rgb(59, 130, 246)"
-                    strokeWidth="2"
-                    fill="none"
-                    className="animate-draw-line"
-                  />
-                  <path
-                    d="M90,50 L85,45 M90,50 L85,55"
-                    stroke="rgb(59, 130, 246)"
-                    strokeWidth="2"
-                    fill="none"
-                  />
-                </svg>
               </div>
             </div>
           </div>
