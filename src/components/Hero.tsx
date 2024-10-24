@@ -49,8 +49,8 @@ const Hero = () => {
           {/* Right side with animation */}
           <div className="flex-1 relative">
             <div className="relative w-[600px] h-[400px] mx-auto">
-              {/* Browser Window V1 - Purple */}
-              <div className="absolute right-[400px] top-1/2 -translate-y-1/2 w-64 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_0.2s_forwards]">
+              {/* Browser Window V1 */}
+              <div className="absolute left-0 bottom-0 w-64 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_0.2s_forwards]">
                 <div className="bg-gradient-to-br from-purple-500/30 to-pink-500/30 backdrop-blur-sm rounded-lg p-4 border border-purple-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -78,8 +78,8 @@ const Hero = () => {
                 </div>
               </div>
 
-              {/* Browser Window V2 - Green */}
-              <div className="absolute right-[200px] top-1/2 -translate-y-1/2 w-64 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_0.7s_forwards]">
+              {/* Browser Window V2 */}
+              <div className="absolute right-0 bottom-0 w-64 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_0.7s_forwards]">
                 <div className="bg-gradient-to-br from-teal-500/30 to-emerald-500/30 backdrop-blur-sm rounded-lg p-4 border border-teal-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -95,13 +95,13 @@ const Hero = () => {
                   </div>
                 </div>
                 {/* Connecting Arrow 2 */}
-                <div className="absolute -right-16 top-1/2 w-16 h-[2px] bg-teal-400/50 animate-[growRight_0.3s_ease-out_1.2s_forwards] origin-left opacity-0">
-                  <ArrowRight className="absolute -right-3 -top-[7px] w-4 h-4 text-teal-400/50" />
+                <div className="absolute left-1/2 -top-16 w-[2px] h-16 bg-teal-400/50 animate-[growUp_0.3s_ease-out_1.2s_forwards] origin-bottom opacity-0">
+                  <ArrowRight className="absolute -top-3 -right-[7px] w-4 h-4 text-teal-400/50 rotate-[-90deg]" />
                 </div>
               </div>
 
-              {/* Browser Window V3 - Blue */}
-              <div className="absolute right-0 top-1/2 -translate-y-1/2 w-72 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_1.2s_forwards]">
+              {/* Browser Window V3 - Design Tool */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-72 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_1.2s_forwards]">
                 <div className="bg-gradient-to-br from-blue-600 to-blue-800 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30 shadow-xl">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
