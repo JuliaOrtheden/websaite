@@ -57,15 +57,15 @@ const OurStory = () => {
             <div className="bg-white/5 rounded-3xl p-8 text-center backdrop-blur-sm">
               <div className="w-48 h-48 mx-auto mb-6 relative">
                 <img
-                  src="/marcus-cto.jpg"
+                  src="/tobias-cto.jpg"
                   alt="CTO"
                   className="w-full h-full object-cover rounded-full border-4 border-white/10"
                 />
               </div>
-              <h3 className="text-3xl font-bold text-white mb-2">Marcus Lindström</h3>
+              <h3 className="text-3xl font-bold text-white mb-2">Tobias Lindgren</h3>
               <div className="text-blue-400 font-medium mb-6">CTO</div>
               <p className="text-gray-400 leading-relaxed">
-                Marcus is a technology innovator with deep expertise in AI and machine learning. With a Ph.D. in Computer Science, he architects the AI systems that power websaite's automated web development platform.
+                Tobias is a technology innovator with deep expertise in web development. With a MSc. in Software Engineering and several years of full-stack consulting, he architects the components that power websaite's automated web development platform.
               </p>
             </div>
           </div>
