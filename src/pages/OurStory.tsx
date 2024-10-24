@@ -37,7 +37,7 @@ const OurStory = () => {
             <div className="bg-white/5 rounded-3xl p-8 text-center backdrop-blur-sm">
               <div className="w-48 h-48 mx-auto mb-6 relative">
                 <img
-                  src="/julia-ceo.jpg"
+                  src="/julia-ceo.png"
                   alt="CEO"
                   className="w-full h-full object-cover rounded-full border-4 border-white/10"
                 />
@@ -53,7 +53,7 @@ const OurStory = () => {
             <div className="bg-white/5 rounded-3xl p-8 text-center backdrop-blur-sm">
               <div className="w-48 h-48 mx-auto mb-6 relative">
                 <img
-                  src="/tobias-cto.jpg"
+                  src="/tobias-cto.jpeg"
                   alt="CTO"
                   className="w-full h-full object-cover rounded-full border-4 border-white/10"
                 />
