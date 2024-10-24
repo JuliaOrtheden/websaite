@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="relative w-[600px] h-[400px] mx-auto">
               {/* Browser Window V1 */}
               <div className="absolute left-0 bottom-0 w-64 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_0.2s_forwards]">
-                <div className="bg-blue-500/20 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30">
+                <div className="bg-gradient-to-br from-purple-500/30 to-pink-500/30 backdrop-blur-sm rounded-lg p-4 border border-purple-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -64,14 +64,14 @@ const Hero = () => {
                   </div>
                 </div>
                 {/* Connecting Arrow 1 */}
-                <div className="absolute -right-16 top-1/2 w-16 h-[2px] bg-blue-400/30 animate-[growRight_0.3s_ease-out_0.7s_forwards] origin-left opacity-0">
-                  <ArrowRight className="absolute -right-3 -top-[7px] w-4 h-4 text-blue-400/30" />
+                <div className="absolute -right-16 top-1/2 w-16 h-[2px] bg-purple-400/50 animate-[growRight_0.3s_ease-out_0.7s_forwards] origin-left opacity-0">
+                  <ArrowRight className="absolute -right-3 -top-[7px] w-4 h-4 text-purple-400/50" />
                 </div>
               </div>
 
               {/* Browser Window V2 */}
               <div className="absolute right-0 bottom-0 w-64 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_0.7s_forwards]">
-                <div className="bg-emerald-500/20 backdrop-blur-sm rounded-lg p-4 border border-emerald-400/30">
+                <div className="bg-gradient-to-br from-teal-500/30 to-emerald-500/30 backdrop-blur-sm rounded-lg p-4 border border-teal-400/30">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -86,14 +86,14 @@ const Hero = () => {
                   </div>
                 </div>
                 {/* Connecting Arrow 2 */}
-                <div className="absolute left-1/2 -top-16 w-[2px] h-16 bg-emerald-400/30 animate-[growUp_0.3s_ease-out_1.2s_forwards] origin-bottom opacity-0">
-                  <ArrowRight className="absolute -top-3 -right-[7px] w-4 h-4 text-emerald-400/30 rotate-[-90deg]" />
+                <div className="absolute left-1/2 -top-16 w-[2px] h-16 bg-teal-400/50 animate-[growUp_0.3s_ease-out_1.2s_forwards] origin-bottom opacity-0">
+                  <ArrowRight className="absolute -top-3 -right-[7px] w-4 h-4 text-teal-400/50 rotate-[-90deg]" />
                 </div>
               </div>
 
               {/* Browser Window V3 - Design Tool */}
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-72 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_1.2s_forwards]">
-                <div className="bg-gradient-to-br from-blue-600 to-blue-800 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30 shadow-xl">
+                <div className="bg-gradient-to-br from-orange-500/30 to-red-500/30 backdrop-blur-sm rounded-lg p-4 border border-orange-400/30 shadow-xl">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -108,10 +108,10 @@ const Hero = () => {
                       <div className="absolute w-3 h-3 bg-white rounded-full animate-moving-pen">
                         <div className="absolute -top-1 -right-1 w-1 h-1 bg-white rounded-full"></div>
                       </div>
-                      <div className="absolute top-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
-                      <div className="absolute bottom-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
-                      <div className="absolute bottom-0 left-0 w-2 h-2 bg-blue-400 rounded-full"></div>
-                      <div className="absolute inset-0 border-2 border-blue-400 rounded pointer-events-none"></div>
+                      <div className="absolute top-0 right-0 w-2 h-2 bg-orange-400 rounded-full"></div>
+                      <div className="absolute bottom-0 right-0 w-2 h-2 bg-orange-400 rounded-full"></div>
+                      <div className="absolute bottom-0 left-0 w-2 h-2 bg-orange-400 rounded-full"></div>
+                      <div className="absolute inset-0 border-2 border-orange-400 rounded pointer-events-none"></div>
                     </div>
                   </div>
                 </div>
