@@ -46,8 +46,8 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right side with animation */}
-          <div className="flex-1 relative">
+          {/* Right side with animation - Hidden on mobile */}
+          <div className="hidden lg:block flex-1 relative">
             <div className="relative w-[600px] h-[400px] mx-auto">
               {/* Browser Window V1 */}
               <div className="absolute left-0 bottom-0 w-64 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_0.2s_forwards]">
@@ -72,7 +72,6 @@ const Hero = () => {
                     </div>
                   </div>
                 </div>
-                {/* Connecting Arrow 1 */}
                 <div className="absolute -right-16 top-1/2 w-16 h-[2px] bg-purple-400/50 animate-[growRight_0.3s_ease-out_0.7s_forwards] origin-left opacity-0">
                   <ArrowRight className="absolute -right-3 -top-[7px] w-4 h-4 text-purple-400/50" />
                 </div>
@@ -94,7 +93,6 @@ const Hero = () => {
                     <div className="h-2 w-2/3 bg-white/10 rounded col-span-2"></div>
                   </div>
                 </div>
-                {/* Connecting Arrow 2 */}
                 <div className="absolute left-1/2 -top-16 w-[2px] h-16 bg-teal-400/50 animate-[growUp_0.3s_ease-out_1.2s_forwards] origin-bottom opacity-0">
                   <ArrowRight className="absolute -top-3 -right-[7px] w-4 h-4 text-teal-400/50 rotate-[-90deg]" />
                 </div>
@@ -128,16 +126,16 @@ const Hero = () => {
       </div>
 
       {/* Curved transition at bottom */}
-        <svg
-          viewBox="0 0 1440 200"
-          className="w-full transform translate-y-1"
-          preserveAspectRatio="none"
-          fill="#0f1116"
-        >
-          <path
-            d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,85.3C672,75,768,85,864,101.3C960,117,1056,139,1152,133.3C1248,128,1344,96,1392,80L1440,64L1440,200L1392,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"
-          />
-        </svg>
+      <svg
+        viewBox="0 0 1440 200"
+        className="w-full transform translate-y-1"
+        preserveAspectRatio="none"
+        fill="#0f1116"
+      >
+        <path
+          d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,85.3C672,75,768,85,864,101.3C960,117,1056,139,1152,133.3C1248,128,1344,96,1392,80L1440,64L1440,200L1392,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"
+        />
+      </svg>
     </div>
   );
 };
