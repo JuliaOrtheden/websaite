@@ -31,9 +31,6 @@ const ReferenceCases = () => {
                 Visit Website
               </Button>
             </a>
-            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white/10">
-              Case Study
-            </Button>
           </div>
         </div>
       </section>
