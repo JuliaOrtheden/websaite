@@ -12,7 +12,7 @@ const Plans = () => {
     <div className="min-h-screen bg-[#0f1116] text-white relative">
       <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
       <Header />
-      <div className="container mx-auto px-4 py-32">
+      <div className="container mx-auto px-4 pt-48">
         {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h1 className="text-5xl font-bold mb-6">Plans & pricing</h1>
