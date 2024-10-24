@@ -57,10 +57,19 @@ const Hero = () => {
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
                   </div>
-                  <div className="space-y-2">
-                    <div className="h-4 w-12 bg-white/10 rounded"></div>
-                    <div className="h-2 w-full bg-white/10 rounded"></div>
-                    <div className="h-2 w-3/4 bg-white/10 rounded"></div>
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-2">
+                      <div className="w-6 h-6 rounded-full bg-purple-500/50 flex items-center justify-center text-white text-sm animate-fade-in-1">1</div>
+                      <div className="h-2 w-full bg-white/10 rounded"></div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-6 h-6 rounded-full bg-purple-500/50 flex items-center justify-center text-white text-sm animate-fade-in-2">2</div>
+                      <div className="h-2 w-3/4 bg-white/10 rounded"></div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <div className="w-6 h-6 rounded-full bg-purple-500/50 flex items-center justify-center text-white text-sm animate-fade-in-3">3</div>
+                      <div className="h-2 w-1/2 bg-white/10 rounded"></div>
+                    </div>
                   </div>
                 </div>
                 {/* Connecting Arrow 1 */}
