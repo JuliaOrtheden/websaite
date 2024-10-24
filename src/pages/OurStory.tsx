@@ -41,15 +41,15 @@ const OurStory = () => {
             <div className="bg-white/5 rounded-3xl p-8 text-center backdrop-blur-sm">
               <div className="w-48 h-48 mx-auto mb-6 relative">
                 <img
-                  src="/ellen-ceo.jpg"
+                  src="/julia-ceo.jpg"
                   alt="CEO"
                   className="w-full h-full object-cover rounded-full border-4 border-white/10"
                 />
               </div>
-              <h3 className="text-3xl font-bold text-white mb-2">Ellen Andersson</h3>
+              <h3 className="text-3xl font-bold text-white mb-2">Julia Ortheden</h3>
               <div className="text-blue-400 font-medium mb-6">CEO</div>
               <p className="text-gray-400 leading-relaxed">
-                Ellen brings extensive experience in AI and web development, with a background in Computer Science and Business Administration. She leads the company's vision to democratize professional web development through AI.
+                Julia brings extensive experience in AI and management consulting, with a background in Software Engineering specialized in machine learning. Her experience in Data Science and Management consulting drives websaite's mission to revolutionize web development through AI.
               </p>
             </div>
 
