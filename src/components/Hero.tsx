@@ -93,7 +93,7 @@ const Hero = () => {
 
               {/* Browser Window V3 - Design Tool */}
               <div className="absolute top-0 left-1/2 -translate-x-1/2 w-72 opacity-0 animate-[fadeSlideIn_0.5s_ease-out_1.2s_forwards]">
-                <div className="bg-gradient-to-br from-orange-500/30 to-red-500/30 backdrop-blur-sm rounded-lg p-4 border border-orange-400/30 shadow-xl">
+                <div className="bg-gradient-to-br from-blue-600 to-blue-800 backdrop-blur-sm rounded-lg p-4 border border-blue-400/30 shadow-xl">
                   <div className="flex gap-2 mb-3">
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
                     <div className="w-2 h-2 rounded-full bg-white/20"></div>
@@ -108,10 +108,10 @@ const Hero = () => {
                       <div className="absolute w-3 h-3 bg-white rounded-full animate-moving-pen">
                         <div className="absolute -top-1 -right-1 w-1 h-1 bg-white rounded-full"></div>
                       </div>
-                      <div className="absolute top-0 right-0 w-2 h-2 bg-orange-400 rounded-full"></div>
-                      <div className="absolute bottom-0 right-0 w-2 h-2 bg-orange-400 rounded-full"></div>
-                      <div className="absolute bottom-0 left-0 w-2 h-2 bg-orange-400 rounded-full"></div>
-                      <div className="absolute inset-0 border-2 border-orange-400 rounded pointer-events-none"></div>
+                      <div className="absolute top-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+                      <div className="absolute bottom-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+                      <div className="absolute bottom-0 left-0 w-2 h-2 bg-blue-400 rounded-full"></div>
+                      <div className="absolute inset-0 border-2 border-blue-400 rounded pointer-events-none"></div>
                     </div>
                   </div>
                 </div>
