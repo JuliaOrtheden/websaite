@@ -45,7 +45,7 @@ const OurStory = () => {
               <h3 className="text-3xl font-bold text-white mb-2">Julia Ortheden</h3>
               <div className="text-blue-400 font-medium mb-6">CEO & Co-founder</div>
               <p className="text-gray-400 leading-relaxed">
-                Through Julia's experience in AI consulting at Capgemini and AI research at Chalmers, she leads our mission to revolutionize web development using cutting-edge AI technology.
+                AI & Management consultant at Capgemini & AI researcher at Chalmers. Julia leads our mission to revolutionize web development using cutting-edge AI technology.
               </p>
             </div>
 
