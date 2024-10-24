@@ -31,6 +31,47 @@ const OurStory = () => {
           </div>
         </div>
       </div>
+
+      {/* Team Section */}
+      <div className="py-24 bg-[#0f1116]">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-white text-center mb-16">Meet Our Leadership</h2>
+          <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            {/* CEO Card */}
+            <div className="bg-white/5 rounded-3xl p-8 text-center backdrop-blur-sm">
+              <div className="w-48 h-48 mx-auto mb-6 relative">
+                <img
+                  src="/ellen-ceo.jpg"
+                  alt="CEO"
+                  className="w-full h-full object-cover rounded-full border-4 border-white/10"
+                />
+              </div>
+              <h3 className="text-3xl font-bold text-white mb-2">Ellen Andersson</h3>
+              <div className="text-blue-400 font-medium mb-6">CEO</div>
+              <p className="text-gray-400 leading-relaxed">
+                Ellen brings extensive experience in AI and web development, with a background in Computer Science and Business Administration. She leads the company's vision to democratize professional web development through AI.
+              </p>
+            </div>
+
+            {/* CTO Card */}
+            <div className="bg-white/5 rounded-3xl p-8 text-center backdrop-blur-sm">
+              <div className="w-48 h-48 mx-auto mb-6 relative">
+                <img
+                  src="/marcus-cto.jpg"
+                  alt="CTO"
+                  className="w-full h-full object-cover rounded-full border-4 border-white/10"
+                />
+              </div>
+              <h3 className="text-3xl font-bold text-white mb-2">Marcus Lindström</h3>
+              <div className="text-blue-400 font-medium mb-6">CTO</div>
+              <p className="text-gray-400 leading-relaxed">
+                Marcus is a technology innovator with deep expertise in AI and machine learning. With a Ph.D. in Computer Science, he architects the AI systems that power websaite's automated web development platform.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <HowItWorks />
       <LogoCarousel />
     </div>
