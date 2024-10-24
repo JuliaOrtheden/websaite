@@ -35,7 +35,7 @@ const Footer = () => {
               Reference cases
             </Link>
             <Link to="/our-story" className="text-white/80 hover:text-white/60 transition-colors">
-              Our story
+              About us
             </Link>
             <Link to="/plans" className="text-white/80 hover:text-white/60 transition-colors">
               Plans
