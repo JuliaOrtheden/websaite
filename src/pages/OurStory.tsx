@@ -61,7 +61,7 @@ const OurStory = () => {
               <h3 className="text-3xl font-bold text-white mb-2">Tobias Lindgren</h3>
               <div className="text-blue-400 font-medium mb-6">CTO & Co-founder</div>
               <p className="text-gray-400 leading-relaxed">
-                Tobias is a technology innovator with deep expertise in web development. With a MSc. in Software Engineering and several years of full-stack consulting, he architects the components that power websaite's automated web development platform.
+                Full-stack consultant at Netlight and a M.Sc. in Computer Science. Tobias architects the components that power websaite's automated web development platform.
               </p>
             </div>
           </div>
