@@ -43,7 +43,7 @@ const OurStory = () => {
                 />
               </div>
               <h3 className="text-3xl font-bold text-white mb-2">Julia Ortheden</h3>
-              <div className="text-blue-400 font-medium mb-6">CEO</div>
+              <div className="text-blue-400 font-medium mb-6">CEO & Co-founder</div>
               <p className="text-gray-400 leading-relaxed">
                 Julia is a visionary leader with a MSc in Artificial Intelligence. Through her experience in AI consulting at Capgemini and research at Chalmers, she leads our mission to revolutionize web development using cutting-edge AI technology.
               </p>
@@ -59,7 +59,7 @@ const OurStory = () => {
                 />
               </div>
               <h3 className="text-3xl font-bold text-white mb-2">Tobias Lindgren</h3>
-              <div className="text-blue-400 font-medium mb-6">CTO</div>
+              <div className="text-blue-400 font-medium mb-6">CTO & Co-founder</div>
               <p className="text-gray-400 leading-relaxed">
                 Tobias is a technology innovator with deep expertise in web development. With a MSc. in Software Engineering and several years of full-stack consulting, he architects the components that power websaite's automated web development platform.
               </p>
