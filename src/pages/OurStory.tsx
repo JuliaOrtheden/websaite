@@ -9,7 +9,7 @@ const OurStory = () => {
       <Header />
       <div className="pt-32 pb-16 bg-[#0f1116]">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto space-y-6">
+          <div className="max-w-3xl space-y-6">
             <div className="space-y-2">
               <h1 className="text-5xl md:text-6xl font-bold text-white">
                 Well, hello there!
