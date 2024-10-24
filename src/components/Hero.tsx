@@ -10,7 +10,6 @@ const Hero = () => {
 
   return (
     <div className="relative overflow-hidden min-h-[calc(100vh-8rem)] lg:min-h-screen">
-      {/* Animated gradient background with dark to light blue transition */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#000624] via-[#1a0628] to-[#2563eb] animate-gradient-x">
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
       </div>
@@ -40,13 +39,12 @@ const Hero = () => {
                   size="lg" 
                   className="bg-blue-600 hover:bg-blue-700 text-white hover:scale-105 hover:shadow-lg transform transition-all duration-200 ease-in-out"
                 >
-                  Create your website
+                  Get a new website
                 </Button>
               </a>
             </div>
           </div>
 
-          {/* Right side with animation - Hidden on mobile */}
           <div className="hidden lg:block flex-1 relative">
             <div className="relative w-[600px] h-[400px] mx-auto">
               {/* Browser Window V1 */}
