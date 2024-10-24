@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button } from '@/components/ui/button';
 import MainNav from './MainNav';
 import { Link } from 'react-router-dom';
@@ -11,8 +11,8 @@ import {
 
 const Header = () => {
   const emailSubject = encodeURIComponent("I want to discuss a new website");
-  const emailBody = encodeURIComponent("Hi Ellen,\n\nI am interested in discussing how you can help me improve my website. I am [Your Name] and I want [Desired Features].\n\nHave a nice day!\n\nBest regards,\n[Your Name]");
-  const mailtoLink = `mailto:ellen@websaite.tech?subject=${emailSubject}&body=${emailBody}`;
+  const emailBody = encodeURIComponent("Hi Julia,\n\nI am interested in discussing how you can help me improve my website. I am [Your Name] and I want [Desired Features].\n\nHave a nice day!\n\nBest regards,\n[Your Name]");
+  const mailtoLink = `mailto:julia@websaite.tech?subject=${emailSubject}&body=${emailBody}`;
 
   return (
     <header className="absolute top-0 left-0 right-0 z-50">
