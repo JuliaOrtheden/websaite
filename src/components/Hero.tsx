@@ -105,9 +105,6 @@ const Hero = () => {
                         <div className="h-16 bg-white/20 rounded"></div>
                         <div className="h-16 bg-white/20 rounded"></div>
                       </div>
-                      <div className="absolute w-3 h-3 bg-white rounded-full animate-moving-pen">
-                        <div className="absolute -top-1 -right-1 w-1 h-1 bg-white rounded-full"></div>
-                      </div>
                       <div className="absolute top-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                       <div className="absolute bottom-0 right-0 w-2 h-2 bg-blue-400 rounded-full"></div>
                       <div className="absolute bottom-0 left-0 w-2 h-2 bg-blue-400 rounded-full"></div>
@@ -122,7 +119,6 @@ const Hero = () => {
       </div>
 
       {/* Curved transition at bottom */}
-      <div className="absolute bottom-0 left-0 right-0 overflow-hidden">
         <svg
           viewBox="0 0 1440 200"
           className="w-full transform translate-y-1"
@@ -133,7 +129,6 @@ const Hero = () => {
             d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,85.3C672,75,768,85,864,101.3C960,117,1056,139,1152,133.3C1248,128,1344,96,1392,80L1440,64L1440,200L1392,200C1344,200,1248,200,1152,200C1056,200,960,200,864,200C768,200,672,200,576,200C480,200,384,200,288,200C192,200,96,200,48,200L0,200Z"
           />
         </svg>
-      </div>
     </div>
   );
 };
