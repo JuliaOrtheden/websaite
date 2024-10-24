@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex items-center space-x-8">
           <Link to="/" className="hover:opacity-80 transition-opacity flex items-center gap-2">
             <Zap className="w-5 h-5 text-blue-400" />
-            <h1 className="text-2xl font-bold text-white">websaite</h1>
+            <h1 className="text-2xl font-bold text-white">webs<span className="text-blue-400">ai</span>te</h1>
           </Link>
           <MainNav />
         </div>
