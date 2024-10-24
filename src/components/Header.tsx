@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         
         <div className="flex items-center space-x-4">
-          <a href={mailtoLink} className="text-white hover:text-white/80 bg-transparent hover:bg-white/10 flex cursor-default select-none items-center rounded-sm px-3 py-1.5 text-sm font-medium outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground border border-purple-500">
+          <a href={mailtoLink} className="text-white hover:text-white/80 bg-transparent hover:bg-white/10 flex cursor-default select-none items-center rounded-sm px-3 py-1.5 text-sm font-medium outline-none focus:bg-accent focus:text-accent-foreground data-[state=open]:bg-accent data-[state=open]:text-accent-foreground border border-white">
             Get in touch
           </a>
           
