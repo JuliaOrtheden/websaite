@@ -29,9 +29,9 @@ const Hero = () => {
             </h1>
             
             <p className="text-lg text-gray-200 max-w-xl">
-              Sit back and let AI do the work. No coding, no design skills needed. 
-              Just tell us your vision, and we'll create a fully customizable website 
-              that's ready to launch in minutes, not months.
+              No coding, no design skills needed. Just tell us your vision, 
+              and we'll create a fully customizable website that's ready to launch 
+              in minutes, not months.
             </p>
             
             <div className="flex flex-wrap gap-4 pt-4">
