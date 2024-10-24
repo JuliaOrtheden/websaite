@@ -9,7 +9,7 @@ const Hero = () => {
   const mailtoLink = `mailto:ellen@websaite.tech?subject=${emailSubject}&body=${emailBody}`;
 
   return (
-    <div className="min-h-screen relative overflow-hidden">
+    <div className="relative overflow-hidden min-h-[calc(100vh-8rem)] lg:min-h-screen">
       {/* Animated gradient background with dark to light blue transition */}
       <div className="absolute inset-0 bg-gradient-to-br from-[#000624] via-[#1a0628] to-[#2563eb] animate-gradient-x">
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] opacity-20" />
@@ -125,7 +125,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Curved transition at bottom */}
       <svg
         viewBox="0 0 1440 200"
         className="w-full transform translate-y-1"
