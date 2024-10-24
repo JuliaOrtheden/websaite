@@ -7,7 +7,7 @@ const OurStory = () => {
   return (
     <div className="min-h-screen bg-[#0f1116]">
       <Header />
-      <div className="pt-32 pb-16 bg-[#0f1116]">
+      <div className="pt-48 pb-16 bg-[#0f1116]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl space-y-6">
             <div className="space-y-2">
