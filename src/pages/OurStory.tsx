@@ -49,7 +49,7 @@ const OurStory = () => {
               <h3 className="text-3xl font-bold text-white mb-2">Julia Ortheden</h3>
               <div className="text-blue-400 font-medium mb-6">CEO</div>
               <p className="text-gray-400 leading-relaxed">
-                Julia is a visionary leader with a MSc in Artificial Intelligence and extensive expertise in AI/GenAI consulting. Her unique blend of software engineering background and specialized knowledge in machine learning drives websaite's innovative approach. Through her experience in AI consulting and development, she leads our mission to revolutionize web development using cutting-edge AI technology.
+                Julia is a visionary leader with a MSc in Artificial Intelligence. Her unique blend of software engineering background and specialized knowledge in machine learning drives websaite's innovative approach. Through her experience in AI consulting and development, she leads our mission to revolutionize web development using cutting-edge AI technology.
               </p>
             </div>
 
